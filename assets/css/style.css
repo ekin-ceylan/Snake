@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('../fonts/PressStart2P-Regular.ttf');
+    src: url('../fonts/PressStart2P-Regular.ttf') format('truetype'),
+        url('../fonts/pressstart2p-regular.eot')
+}
+
+span, table{
+    font-family: 'Press Start 2P';
+    color:white;
+    font-size:15px;
+    text-align:center;
+}
+
+#tbl{
+    width:190px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    display:inline-flexbox;
+}
+
+.dv1{
+    margin-top:20px;
+    position:absolute;
+    left:50%;
+    -moz-transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+
+.dv2{
+    position:absolute;
+    top:95%;
+    left:6%;
+    -moz-transform:translateY(-100%);
+    -webkit-transform:translateY(-100%);
+    -ms-transform:translateY(-100%);
+    transform:translateY(-100%);
+}
+
+.dv3{
+    position:absolute;
+    top:5%;
+    left:6%;
+}
